@@ -62,7 +62,7 @@ function createCountryInfo(countryName) {
       return `
       <p><img class="country_image" src="${flags.svg}" alt="${
         flags.alt
-      }" width="25" height="15">${name.common}</p>
+      }" width="25" height="15">${name.official}</p>
       <p><b class="country_text">Capital:</b>${capital}</p>
       <p><b class="country_text">Population:</b>${population}</p>
       <p><b class="country_text">Languages:</b>${Object.values(languages).join(
